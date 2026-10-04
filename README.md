@@ -9,7 +9,7 @@
 | 週次 | 主題 | Notebook |
 |---|---|---|
 | W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb`　補充資料：`docs/W05_長照評估量表說明.pdf` |
-| W6 | 探索性資料分析 – Matplotlib | 即將公布 |
+| W6 | 探索性資料分析 – Matplotlib | `notebooks/W06_matplotlib.ipynb`　作業：`homework/W06_HW.ipynb` |
 | W7 | 機器學習模型 – scikit-learn | 即將公布 |
 | W9 | 醫療 AI 模型可解釋性 – SHAP | 即將公布 |
 
@@ -18,6 +18,10 @@
 - Google Colab（建議），或 Python 3.10 以上的 Jupyter 環境
 - 本教材已在 **pandas 2.2.3** 與 **pandas 3.0.6** 測試通過（Python 3.12）
 - pandas 3 的文字欄位型別顯示為 `str`，pandas 2 顯示為 `object`，不影響程式執行
+
+## 中文字型
+
+`fonts/` 內為思源黑體（Noto Sans TC）Regular 與 Bold，由 [Google Fonts](https://github.com/google/fonts/tree/main/ofl/notosanstc) 的可變字型轉為固定字重，供 Colab 的 matplotlib 顯示中文。授權為 SIL Open Font License 1.1（見 `fonts/OFL.txt`）。
 
 ## 資料
 
@@ -28,6 +32,8 @@
 
 - `residents_raw.csv`：住民基本資料（每人一列，含少量重複列）
 - `assessments_raw.csv`：評估紀錄（每人 1–4 次評估）
+- `ltc_dementia_clean.csv`：清理後、每人一列（最近一次評估）、英文欄名（W6 起使用）
+- `ltc_assessments_clean.csv`：清理後的所有評估紀錄（W6 畫趨勢使用）
 
 ### `data/hw/`：作業資料
 
@@ -37,6 +43,7 @@
 
 - `patients_raw.csv`：病人基本資料與生活型態
 - `clinical_raw.csv`：臨床量測與診斷
+- `alzheimers_clean.csv`：清理好的完整版本（原始資料移除 `DoctorInCharge`；W6 起使用）
 
 ### 長照模擬資料欄位說明
 
