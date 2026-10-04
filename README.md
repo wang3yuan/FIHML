@@ -7,10 +7,16 @@
 
 | 週次 | 主題 | Notebook |
 |---|---|---|
-| W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb` |
+| W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb` |
 | W6 | 探索性資料分析 – Matplotlib | 即將公布 |
 | W7 | 機器學習模型 – scikit-learn | 即將公布 |
 | W9 | 醫療 AI 模型可解釋性 – SHAP | 即將公布 |
+
+## 執行環境
+
+- Google Colab（建議），或 Python 3.10 以上的 Jupyter 環境
+- 本教材已在 **pandas 2.2.3** 與 **pandas 3.0.6** 測試通過（Python 3.12）
+- pandas 3 的文字欄位型別顯示為 `str`，pandas 2 顯示為 `object`，不影響程式執行
 
 ## 資料
 
