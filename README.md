@@ -2,6 +2,7 @@
 
 臺北醫學大學 智慧醫療學士學位學程　1151 學期
 授課教師：王三源（syw@tmu.edu.tw）
+課程助教：古珉瑄（醫資所，m610115009@tmu.edu.tw）
 
 本 repo 提供課程第 5–9 週 Python 實作單元的資料與 notebook，可直接在 Google Colab 開啟。
 
