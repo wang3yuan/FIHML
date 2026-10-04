@@ -8,7 +8,7 @@
 
 | 週次 | 主題 | Notebook |
 |---|---|---|
-| W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb` |
+| W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb`　補充資料：`docs/W05_長照評估量表說明.pdf` |
 | W6 | 探索性資料分析 – Matplotlib | 即將公布 |
 | W7 | 機器學習模型 – scikit-learn | 即將公布 |
 | W9 | 醫療 AI 模型可解釋性 – SHAP | 即將公布 |
