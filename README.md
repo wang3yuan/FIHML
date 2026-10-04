@@ -30,3 +30,30 @@
 
 - `patients_raw.csv`：病人基本資料與生活型態
 - `clinical_raw.csv`：臨床量測與診斷
+
+### 長照模擬資料欄位說明
+
+| 原始欄名 | 英文欄名 | 說明 |
+|---|---|---|
+| 住民編號 | resident_id | 住民代碼 |
+| 姓名 | name | 模擬姓名（去識別化練習用） |
+| 性別 | sex | 男／女（原始資料寫法不一致） |
+| 出生日期 | birth_date | 西元或民國（原始資料格式不一致） |
+| 機構 | facility | A／B／C 機構 |
+| 入住日期 | admission_date | |
+| 教育年數 | education_years | 年 |
+| 身高、體重 | height_cm, weight_kg | 公分、公斤 |
+| 血型、房號 | blood_type, room | |
+| 高血壓、糖尿病、中風史、聽力障礙 | hypertension, diabetes, stroke, hearing_loss | 有／無 |
+| 失智診斷 | dementia | 有／無（**預測目標**） |
+| 評估日期 | assess_date | |
+| SPMSQ錯誤題數 | spmsq_errors | 簡易心智狀態問卷，0–10，錯越多認知越差；99 = 未評估 |
+| 巴氏量表 | adl_barthel | 日常生活活動功能，0–100，越高越獨立 |
+| IADL | iadl | 工具性日常生活活動，0–8 |
+| GDS15 | gds15 | 老人憂鬱量表簡式版，0–15 |
+| 過去一年跌倒次數 | falls_past_year | |
+| 夜間睡眠時數 | sleep_hours | 小時 |
+| 每週社交活動次數 | social_per_week | 住民自主參與之社交活動（非因失智安排之認知活動） |
+| 用藥品項數 | n_medications | 慢性病用藥品項數（**不含失智症用藥**） |
+
+> 本資料刻意不收錄 CDR 分期、失智症用藥等「確診後才會產生」的資訊：用它們預測失智等於偷看答案。
