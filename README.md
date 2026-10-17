@@ -10,7 +10,7 @@
 |---|---|---|
 | W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb`　補充資料：`docs/W05_長照評估量表說明.pdf` |
 | W6 | 探索性資料分析 – Matplotlib | `notebooks/W06_matplotlib.ipynb`　作業：`homework/W06_HW.ipynb` |
-| W7 | 機器學習模型 – scikit-learn | 即將公布 |
+| W7 | 監督式學習 – scikit-learn | `notebooks/W07_sklearn.ipynb`　作業：即將公布 |
 | W9 | 醫療 AI 模型可解釋性 – SHAP | 即將公布 |
 
 ## 執行環境
@@ -18,6 +18,8 @@
 - Google Colab（建議），或 Python 3.10 以上的 Jupyter 環境
 - 本教材已在 **pandas 2.2.3** 與 **pandas 3.0.6** 測試通過（Python 3.12）
 - pandas 3 的文字欄位型別顯示為 `str`，pandas 2 顯示為 `object`，不影響程式執行
+- W6 起：已在 **matplotlib 3.9.4** 與 **3.11.2** 測試通過
+- W7 起：已在 **scikit-learn 1.6.1**（搭配 pandas 2.2.3）與 **1.9.1**（搭配 pandas 3.0.6）測試通過。不同版本的 [scikit-learn 手冊](https://scikit-learn.org/stable/)內容略有不同，查手冊時請在右上角選擇和自己相同的版本
 
 ## 中文字型
 
