@@ -40,7 +40,7 @@
 ### `data/hw/`：作業資料
 
 改編自 Kaggle [Alzheimer's Disease Dataset](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset)
-（Rabie El Kharoua, 2024，授權 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)）。
+（Rabie El Kharoua, 2024，DOI: [10.34740/KAGGLE/DSV/8668279](https://doi.org/10.34740/KAGGLE/DSV/8668279)，授權 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)）。
 本課程將原始資料拆成兩張表，移除 `DoctorInCharge` 欄位，並加入缺值、編碼不一致、重複列等髒資料供練習使用；原資料本身亦為合成資料。
 
 - `patients_raw.csv`：病人基本資料與生活型態
