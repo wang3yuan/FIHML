@@ -10,7 +10,7 @@
 |---|---|---|
 | W5 | 長照數據處理 – pandas | `notebooks/W05_pandas.ipynb`　作業：`homework/W05_HW.ipynb`　補充資料：`docs/W05_長照評估量表說明.pdf` |
 | W6 | 探索性資料分析 – Matplotlib | `notebooks/W06_matplotlib.ipynb`　作業：`homework/W06_HW.ipynb` |
-| W7 | 監督式學習 – scikit-learn | `notebooks/W07_sklearn.ipynb`　作業：即將公布 |
+| W7 | 監督式學習 – scikit-learn | `notebooks/W07_sklearn.ipynb`　作業：`homework/W07_HW.ipynb` |
 | W9 | 醫療 AI 模型可解釋性 – SHAP | 即將公布 |
 
 ## 執行環境
