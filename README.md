@@ -20,7 +20,7 @@
 - pandas 3 的文字欄位型別顯示為 `str`，pandas 2 顯示為 `object`，不影響程式執行
 - W6 起：已在 **matplotlib 3.9.4** 與 **3.11.2** 測試通過
 - W7 起：已在 **scikit-learn 1.6.1**（搭配 pandas 2.2.3）與 **1.9.1**（搭配 pandas 3.0.6）測試通過。不同版本的 [scikit-learn 手冊](https://scikit-learn.org/stable/)內容略有不同，查手冊時請在右上角選擇和自己相同的版本
-- W9 起：搭配 **shap 0.52.0**（notebook 第一格會自動安裝並印出版本），在上述兩組 scikit-learn／pandas 版本都測試通過。查 [shap 手冊](https://shap.readthedocs.io/)或問 Gemini 時，請說明使用的 shap 版本
+- W9 起：搭配 **shap**，已在 **shap 0.52.0**（搭配 scikit-learn 1.6.1）與 **0.54.1**（搭配 scikit-learn 1.9.1；Colab 內建的版本）測試通過。notebook 第一格會印出版本；查 [shap 手冊](https://shap.readthedocs.io/)或問 Gemini 時，請說明使用的 shap 版本
 
 ## 中文字型
 
